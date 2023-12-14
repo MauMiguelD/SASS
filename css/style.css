@@ -28,7 +28,12 @@ section {
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 100%;
+}
+@media (max-width: 1199px) {
+  .container {
+    max-width: 83.3333333333%;
+  }
 }
 
 img {
@@ -50,7 +55,7 @@ p {
 }
 
 h1 {
-  color: #ff5;
+  color: rgb(255, 123, 0);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 3rem;
   margin-top: 3rem;
@@ -75,14 +80,16 @@ footer {
   padding: 3rem 0;
 }
 .bikes h2, .cars h2 {
-  color: #ff5;
+  color: rgb(255, 123, 0);
 }
 .bikes ul, .cars ul {
   list-style-type: none;
   font-size: 1.2rem;
-  display: flex;
+  display: block;
+  float: left;
   justify-content: space-between;
-  height: 250px;
+  height: auto;
+  margin: 1.5rem auto;
   padding: 1rem 0;
   width: 100%;
 }
@@ -90,16 +97,27 @@ footer {
   color: #999;
   display: block;
   margin: 1.5rem auto;
-  width: 30%;
+  text-align: center;
+  width: calc(33% - 15px);
+}
+@media (max-width: 999px) {
+  .bikes li, .cars li {
+    width: calc(99% - 30px);
+  }
 }
 .bikes li .img-container, .cars li .img-container {
   display: block;
-  height: 200px;
+  height: 15rem;
   overflow: hidden;
   width: 100%;
 }
+@media (max-width: 999px) {
+  .bikes li .img-container, .cars li .img-container {
+    height: 20rem;
+  }
+}
 .bikes li a, .cars li a {
-  background-color: #ff5;
+  background-color: rgb(255, 123, 0);
   border-radius: 5px;
   color: white;
   display: block;
@@ -114,7 +132,7 @@ footer {
   color: #999;
 }
 .cars .destacks {
-  border: 1px solid #ff5;
+  border: 1px solid rgb(255, 123, 0);
   background-color: #222;
   box-shadow: 0 0 1px rgba(68, 68, 68, 0.25);
 }
@@ -138,14 +156,16 @@ footer {
   padding: 3rem 0;
 }
 .bikes h2, .cars h2 {
-  color: #ff5;
+  color: rgb(255, 123, 0);
 }
 .bikes ul, .cars ul {
   list-style-type: none;
   font-size: 1.2rem;
-  display: flex;
+  display: block;
+  float: left;
   justify-content: space-between;
-  height: 250px;
+  height: auto;
+  margin: 1.5rem auto;
   padding: 1rem 0;
   width: 100%;
 }
@@ -153,16 +173,27 @@ footer {
   color: #999;
   display: block;
   margin: 1.5rem auto;
-  width: 30%;
+  text-align: center;
+  width: calc(33% - 15px);
+}
+@media (max-width: 999px) {
+  .bikes li, .cars li {
+    width: calc(99% - 30px);
+  }
 }
 .bikes li .img-container, .cars li .img-container {
   display: block;
-  height: 200px;
+  height: 15rem;
   overflow: hidden;
   width: 100%;
 }
+@media (max-width: 999px) {
+  .bikes li .img-container, .cars li .img-container {
+    height: 20rem;
+  }
+}
 .bikes li a, .cars li a {
-  background-color: #ff5;
+  background-color: rgb(255, 123, 0);
   border-radius: 5px;
   color: white;
   display: block;
@@ -196,7 +227,7 @@ footer {
 }
 .destack p {
   font-size: 1.5rem;
-  color: #ff5;
+  color: rgb(255, 123, 0);
   padding: 2rem 0;
   width: 100%;
 }
