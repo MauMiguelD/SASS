@@ -63,7 +63,7 @@ h1 {
 }
 
 h2 {
-  color: #999;
+  color: #1900fc;
   font-size: 2.2rem;
 }
 
@@ -114,7 +114,7 @@ footer {
   width: 100%;
 }
 .blocks__item {
-  color: #999;
+  color: #1900fc;
   display: block;
   margin: 1.5rem auto;
   text-align: center;
@@ -136,6 +136,14 @@ footer {
     height: 20rem;
   }
 }
+.blocks__description {
+  color: #444;
+  font-size: 1.5rem;
+}
+.blocks__description--destack {
+  color: #1900fc;
+  padding: 1.5rem;
+}
 .blocks__button {
   background-color: rgb(255, 123, 0);
   border-radius: 5px;
@@ -149,7 +157,7 @@ footer {
 }
 
 .cars__title {
-  color: #999;
+  color: #1900fc;
 }
 .cars .destacks {
   border: 1px solid rgb(255, 123, 0);
@@ -181,24 +189,24 @@ footer {
   background-color: #222;
   padding: 1.5rem;
 }
-.destack h1 {
+.destack__title {
   color: #f00;
   float: left;
   font-size: 3rem;
   margin-top: 0;
 }
-.destack h2 {
+.destack__subtitle {
   float: left;
   font-size: 1.2rem;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
 }
-.destack img {
+.destack__image {
   width: 100%;
   height: auto;
   margin: 1.5rem auto;
 }
-.destack p {
+.destack__description {
   font-size: 1.5rem;
   color: rgb(255, 123, 0);
   padding: 2rem 0;
