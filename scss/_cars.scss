@@ -15,7 +15,7 @@
     }
     &__item {
         @include theme($theme: $color-default, $bg: $bg-color);
-        color: $color-04;
+        background-color: $color-04;
         display: flex;
         float: left;
         height: max-content;
@@ -29,6 +29,6 @@
 
     }
     &__button {
-        background-color: $color-default;
+        background-color: $color-01;
     }
 }

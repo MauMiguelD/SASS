@@ -8,7 +8,12 @@
 html {
     font-size: 62.5%;
 }
-
+#header-color {
+    background-color: $color-01;
+}
+#footer-color {
+    background-color: $color-01;
+}
 div, 
 p {
     display: block;

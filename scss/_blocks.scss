@@ -53,21 +53,21 @@
 
     &__img-container {
         display: block;
-        height: 15rem;
+        height: 30rem;
         overflow: hidden;
         width: 100%;
 
         @media (max-width: $tablet){
-            height: 20rem;
+            height: 45rem;
         }
     }
 
     &__description {
-        color: $color-default;
+        color: $color-01;
         font-size: $font-normal;
 
         &--destack {
-            color: $color-02;
+            color: $color-01;
             padding: $space-default;
         }
     }
